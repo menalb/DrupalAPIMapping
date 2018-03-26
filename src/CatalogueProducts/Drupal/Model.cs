@@ -42,7 +42,7 @@ namespace CatalogueProducts.Drupal
         public IEnumerable<FieldInt> Changed { get; set; }
         [JsonProperty("revision_timestamp")]
         public IEnumerable<FieldLong> LastUpdated { get; set; }
-        [JsonProperty("field_linked_milestones")] //TODO: change
+        [JsonProperty("field_linked_products")]
         public IEnumerable<FieldProduct> Products { get; set; }
     }
 
@@ -57,7 +57,7 @@ namespace CatalogueProducts.Drupal
 
     public class TargetProduct
     {
-        [JsonProperty("field_linked_vips")]//TODO: change
+        [JsonProperty("field_linked_seasons")]
         public IEnumerable<FieldTarget> Seasons { get; set; }
     }
 
