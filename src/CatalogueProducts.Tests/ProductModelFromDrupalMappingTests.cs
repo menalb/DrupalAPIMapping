@@ -1,8 +1,7 @@
 ﻿using Xunit;
+using System.Linq;
 
 using CatalogueProducts.Drupal;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace CatalogueProducts.Tests
 {

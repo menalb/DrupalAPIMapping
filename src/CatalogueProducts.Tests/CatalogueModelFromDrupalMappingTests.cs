@@ -70,7 +70,6 @@ namespace CatalogueProducts.Tests
 
             Assert.Equal(0, (int)(dateTime - result.LastUpdated).TotalSeconds);
         }
-
     }
 
     internal static class CatalogueBuilder
